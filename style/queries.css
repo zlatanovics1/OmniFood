@@ -1,0 +1,114 @@
+/******************/
+/*  (1344px) - small desktops*/
+/*****************/
+
+@media (max-width: 84em) {
+  .hero-container {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+/******************/
+/*  (1200px) - landscape tabllets*/
+/*****************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .main-nav {
+    gap: 3.2rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .hero-container {
+    gap: 4.8rem;
+  }
+
+  .testimonials-container {
+    padding: 8rem 3.2rem;
+  }
+}
+
+/******************/
+/*  (976px) -tablets*/
+/*****************/
+
+@media (max-width: 61em) {
+  html {
+    font-size: 50%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .hamburger-menu-icon {
+    display: block;
+  }
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-text-box {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-inline: 4.8rem;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 6.4rem;
+  }
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+
+  .logos {
+    margin-top: 2.4rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .testimonials-gallery-section {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .meal-info {
+    padding: 3.2rem;
+    /* padding-top: 2.4rem; */
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 2.4rem;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
